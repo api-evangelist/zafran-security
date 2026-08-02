@@ -1,8 +1,19 @@
 aid: zafran-security
 name: Zafran Security
-description: Zafran Security is a company surfaced as a portfolio company of menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Zafran Security is an AI-native threat exposure management (CTEM) platform for
+  security teams buried in vulnerabilities and manual remediation work. It brings
+  vulnerability findings together across an organization's existing scanners and
+  tools to create a unified view of exposure across the hybrid enterprise, then
+  determines actual exploitability by analyzing runtime presence, internet
+  reachability, and existing compensating controls. Zafran maps vulnerabilities to
+  controls the team already owns to mitigate risk before patching, and its RemOps
+  capability uses generative AI to consolidate overlapping CVEs into a clear
+  get-well plan routed to the right owners through existing ticketing platforms.
+  The platform is delivered as a SaaS product accessed at api.zafran.io behind
+  Descope-based authentication with API-key access for integrations (Axonius,
+  Palo Alto Cortex XSOAR); it does not publish a public developer portal or
+  OpenAPI. Zafran is backed by Menlo Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/zafran-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +21,30 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/680f7748aeaac0c97e4b1a7b/683a2e0c6e76020e5ddb494b_zafran-og.png
 tags:
 - Company
+- Security
+- Cybersecurity
+- Vulnerability Management
+- Threat Exposure Management
+- CTEM
+- Remediation
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,32 @@ maintainers:
 common:
 - type: Website
   url: https://zafran.io
+- type: Platform
+  url: https://www.zafran.io/platform
+- type: Blog
+  url: https://www.zafran.io/blog
+- type: SignUp
+  url: https://www.zafran.io/free-trial
+- type: Demo
+  url: https://www.zafran.io/get-a-demo
+- type: TermsOfService
+  url: https://www.zafran.io/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.zafran.io/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/zafransecurity
+- type: TrustCenter
+  url: security/zafran-security-trust-center.yml
+- type: Compliance
+  url: https://trust.zafran.io/
+- type: Security
+  url: https://www.zafran.io/responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: security/zafran-security-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/zafran-security-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.zafran.io/
+url: https://trust.zafran.io/
+platform: SafeBase
+contact: trust@zafran.io
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- ISO/IEC 42001:2023
+- GDPR
+- TX-RAMP
+partnerships:
+- AWS Partner
+- AWS Qualified Software
+resources:
+- network diagram
+- penetration test report
+- security policies (acceptable use, access control, anti-malware)
+evidence:
+- source: https://trust.zafran.io/
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001:2022
+  - iso/iec 42001:2023
+  - gdpr
+  - tx-ramp
+  - trust center
